@@ -70,10 +70,11 @@ public function __construct()
              // je rajoute un autre commentaire et une fonction bidon
 
              public function Test() {
+                    echo "message test";
 
              }
 
-             
+
             catch (Exception $e) {
                 echo $e->getMessage();
             }
