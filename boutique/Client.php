@@ -67,6 +67,13 @@ public function __construct()
 
 
              // un deuxieme commentaire pour la branch evolution1
+             // je rajoute un autre commentaire et une fonction bidon
+
+             public function Test() {
+
+             }
+
+             
             catch (Exception $e) {
                 echo $e->getMessage();
             }
