@@ -62,7 +62,7 @@ public function __construct()
                     $_SESSION['id']=$client['id'];
                 }
             }
-             
+             // un commentaire pour le test de github
             catch (Exception $e) {
                 echo $e->getMessage();
             }
